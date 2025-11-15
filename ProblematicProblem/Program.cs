@@ -6,7 +6,6 @@ namespace ProblematicProblem
 {
     class Program 
     {
-       static Random rng = new Random();
        static bool cont = true;
 
        internal static List<string> activities = new List<string>()
