@@ -12,6 +12,7 @@ namespace ProblematicProblem
     { "Movies", "Paintball", "Bowling", "Laser Tag", "LAN Party", "Hiking", "Axe Throwing", "Wine Tasting" };
         static void Main(string[] args)
         {
+            Random rng = new Random();
             Console.Write("Hello, welcome to the random activity generator! \nWould you like to generate a random activity? yes/no: ");
             var input = Console.ReadLine().Trim().ToLower();
             cont = input == "yes" ? true : false;
